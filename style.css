@@ -1,0 +1,35 @@
+.square {
+    width: 100px;
+    height: 100px;
+    font-size: 3em;
+    line-height: 100px;
+    border: 1px solid #999;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.board-row {
+    clear: both;
+    overflow: hidden;
+}
+
+.board-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.board {
+    margin: 20px auto;
+    width: 320px;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#reset-btn {
+    margin-top: 20px;
+}
